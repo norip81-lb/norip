@@ -17,4 +17,4 @@ jobs:
         USER_PASS: lzy20100122
      - name: Don't kill instace
        if: ${{ failure() }}
-       run: sleep 1h
+       run: sleep 6h
